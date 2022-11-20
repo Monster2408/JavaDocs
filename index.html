@@ -7,11 +7,47 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="dc.created" content="2022-11-17">
         <link rel="stylesheet" type="text/css" href="style.css" title="Style">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     </head>
     <body>
-        <div class="">
-            <h1>MinecraftUtil</h1>
-            
-        </div>
+        <h1>Monster2408's Documents</h1>
+        <div class="util-list" id="util-list"></div>
     </body>
+    <script>
+
+        let requestURL = './main.json';
+        let request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+
+        request.send();
+
+        request.onload = function() {
+            let list = request.response;
+            list = JSON.parse(JSON.stringify(list));
+
+            console.log(list)
+
+
+            // JSONファイルを整形して表示
+            let minecraft_util = "<ul>";
+            
+            for(let util in list){
+                console.log(util)
+                minecraft_util += "<li>" + util + "<ul>";
+
+                for (let ver in list[util]["versions"]) {
+                    if (list[util]["versions"][ver] == list[util]["latest-version"]) {
+                        minecraft_util += "<li><a href='" + list[util]["javadoc-url"] + "'>LATEST</a></li>";
+                    } else {
+                        minecraft_util += "<li><a href='" + list[util]["javadoc-url"] + list[util]["versions"][ver] + "'>v" + list[util]["versions"][ver] + "</a></li>";
+                    }
+                }
+                
+                minecraft_util += "</ul></li>";
+            }
+            minecraft_util += "</ul>";
+            document.getElementById("util-list").innerHTML = minecraft_util;
+        }
+    </script>
 </html>

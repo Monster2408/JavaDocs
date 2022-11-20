@@ -1,6 +1,18 @@
 {
     "MinecraftUtil": {
         "name": "MinecraftUtil",
-        "javadoc-url": "https://docs.mlserver.jp/MinecraftUtil/"
+        "javadoc-url": "https://docs.mlserver.jp/MinecraftUtil/",
+        "latest-version": "1.0.0",
+        "versions": [
+            "1.0.0"
+        ]
+    },
+    "JavaUtil": {
+        "name": "JavaUtil",
+        "javadoc-url": "https://docs.mlserver.jp/JavaUtil/",
+        "latest-version": "1.0.0",
+        "versions": [
+            "1.0.0"
+        ]
     }
 }
