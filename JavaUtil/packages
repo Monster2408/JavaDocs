@@ -1,0 +1,9 @@
+xyz.mlserver.util
+xyz.mlserver.util.collection
+xyz.mlserver.util.function
+xyz.mlserver.util.magic
+xyz.mlserver.util.native_util
+xyz.mlserver.util.reflect
+xyz.mlserver.util.reflections
+xyz.mlserver.util.serialization
+xyz.mlserver.util.yaml

@@ -1,0 +1,32 @@
+-classpath
+'C:/Users/monster2408/.m2/repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar;C:/Users/monster2408/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar;C:/Users/monster2408/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar;C:/Users/monster2408/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar;C:/Users/monster2408/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar;C:/Users/monster2408/.m2/repository/org/json/json/20220924/json-20220924.jar;C:/Users/monster2408/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar;C:/Users/monster2408/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar;C:/Users/monster2408/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar;C:/Users/monster2408/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar;C:/Users/monster2408/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'D:/プログラミング/Plugin/Lib/JavaUtil/src/main/java'
+-author
+-bottom
+'<p class="legalCopy"><small>Copyright &#169; 2022. <a href="https://monster2408.com">Monster2408</a>.</small></p>'
+-charset
+'UTF-8'
+-d
+'D:/プログラミング/Plugin/Lib/JavaUtil/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'JavaUtil 1.0.0 API'
+-header
+'<a href="https://docs.mlserver.jp"><i class="fa-solid fa-house-chimney"></i>HOME</a>'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'D:/プログラミング/Plugin/Lib/JavaUtil/target/javadoc-bundle-options'
+-stylesheetfile
+'D:/プログラミング/Plugin/Lib/JavaUtil/src/main/resources/javadoc/stylesheet.css'
+-top
+'<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">                         <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">                         <script src="https://kit.fontawesome.com/159d32b7b7.js" crossorigin="anonymous"></script>'
+-use
+-version
+-windowtitle
+'JavaUtil 1.0.0 API'
