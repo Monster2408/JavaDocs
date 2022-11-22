@@ -36,7 +36,7 @@
                 minecraft_util += "<li>" + list[util]["name"] + "<ul id='" + list[util]["name"] + "'>";
 
                 let version = "";
-                let latest = "";
+                let latest = true;
                 let releases_html = "";
                 $.ajax({
                     url: list[util]["github-api-uri"],
@@ -45,11 +45,12 @@
                         for (let item in data) {
                             if (data[item]["prerelease"] == false) {
                                 version = data[item]["tag_name"];
-                                if (version == latest) {
+                                if (latest == true) {
                                     releases_html += "<li><a href='" + list[util]["javadoc-url"] + "'>LATEST</a></li>";
                                 } else {
                                     releases_html += "<li><a href='" + list[util]["javadoc-url"] + "versions/" + version + "'>v" + version + "</a></li>";
                                 }
+                                latest = false;
                             }
                         }
                         document.getElementById(list[util]["name"]).innerHTML = releases_html;
