@@ -2,6 +2,7 @@
     "MinecraftUtil": {
         "name": "MinecraftUtil",
         "javadoc-url": "https://docs.mlserver.jp/MinecraftUtil/",
+        "github-api-uri": "https://api.github.com/repos/Monster2408/MinecraftUtil/releases",
         "latest-version": "1.0.0",
         "versions": [
             "1.0.0"
@@ -10,6 +11,7 @@
     "JavaUtil": {
         "name": "JavaUtil",
         "javadoc-url": "https://docs.mlserver.jp/JavaUtil/",
+        "github-api-uri": "https://api.github.com/repos/Monster2408/JavaUtil/releases",
         "latest-version": "1.0.0",
         "versions": [
             "1.0.0"

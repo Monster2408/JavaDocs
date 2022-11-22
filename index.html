@@ -18,7 +18,6 @@
         <div class="util-list" id="util-list"></div>
     </body>
     <script>
-
         let requestURL = './main.json';
         let request = new XMLHttpRequest();
         request.open('GET', requestURL);
@@ -30,23 +29,37 @@
             let list = request.response;
             list = JSON.parse(JSON.stringify(list));
 
-            console.log(list)
-
-
             // JSONファイルを整形して表示
             let minecraft_util = "<ul>";
             
             for(let util in list){
-                console.log(util)
-                minecraft_util += "<li>" + util + "<ul>";
+                minecraft_util += "<li>" + list[util]["name"] + "<ul id='" + list[util]["name"] + "'>";
 
-                for (let ver in list[util]["versions"]) {
-                    if (list[util]["versions"][ver] == list[util]["latest-version"]) {
-                        minecraft_util += "<li><a href='" + list[util]["javadoc-url"] + "'>LATEST</a></li>";
-                    } else {
-                        minecraft_util += "<li><a href='" + list[util]["javadoc-url"] + list[util]["versions"][ver] + "'>v" + list[util]["versions"][ver] + "</a></li>";
+                let version = "";
+                let latest = "";
+                let releases_html = "";
+                $.ajax({
+                    url: list[util]["github-api-uri"],
+                    dataType: "json",
+                    success: function (data) {
+                        for (let item in data) {
+                            if (data[item]["prerelease"] == false) {
+                                version = data[item]["tag_name"];
+                                if (version == latest) {
+                                    releases_html += "<li><a href='" + list[util]["javadoc-url"] + "'>LATEST</a></li>";
+                                } else {
+                                    releases_html += "<li><a href='" + list[util]["javadoc-url"] + "versions/" + version + "'>v" + version + "</a></li>";
+                                }
+                            }
+                        }
+                        document.getElementById(list[util]["name"]).innerHTML = releases_html;
+                    },
+                    statusCode: {
+                        404: function () {
+                        console.log('!!!!');
+                        }
                     }
-                }
+                });
                 
                 minecraft_util += "</ul></li>";
             }
