@@ -16,5 +16,14 @@
         "versions": [
             "1.0.0"
         ]
+    },
+    "AdvancementCreator": {
+        "name": "AdvancementCreator",
+        "javadoc-url": "https://docs.mlserver.jp/AdvancementCreator/",
+        "github-api-uri": "https://api.github.com/repos/Monster2408/AdvancementCreator/releases",
+        "latest-version": "1.0.0",
+        "versions": [
+            "1.0.0"
+        ]
     }
 }
