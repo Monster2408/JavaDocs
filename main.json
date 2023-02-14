@@ -34,5 +34,14 @@
         "versions": [
             "1.0.0"
         ]
+    },
+    "Spigot-Update-Core": {
+        "name": "Spigot-Update-Core",
+        "javadoc-url": "https://docs.mlserver.jp/Spigot-Update-Core/",
+        "github-api-uri": "https://api.github.com/repos/Monster2408/Spigot-Update-Core/releases",
+        "latest-version": "1.0.0",
+        "versions": [
+            "1.0.0"
+        ]
     }
 }
