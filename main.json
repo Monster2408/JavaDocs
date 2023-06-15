@@ -1,4 +1,13 @@
 {
+    "MCVersion": {
+        "name": "MCVersion",
+        "javadoc-url": "https://docs.mlserver.jp/MCVersion/",
+        "github-api-uri": "https://api.github.com/repos/Monster2408/MCVersion/releases",
+        "latest-version": "1.0.0",
+        "versions": [
+            "1.0.0"
+        ]
+    },
     "MinecraftUtil": {
         "name": "MinecraftUtil",
         "javadoc-url": "https://docs.mlserver.jp/MinecraftUtil/",
