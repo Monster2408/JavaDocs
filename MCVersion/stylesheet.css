@@ -4,6 +4,7 @@
 
 @import url('resources/fonts/dejavu.css');
 
+
 /*
  * Styles for individual HTML elements.
  *
@@ -901,4 +902,22 @@ table.striped > tbody > tr > th, table.striped > tbody > tr > td {
 }
 table.striped > tbody > tr > th {
     font-weight: normal;
+}
+
+
+ul.blockList li.blockList {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.blockList li.blockList ul.blockList li.blockList {
+    display: block;
+}
+ul.blockList li.blockList section:nth-child(1) {
+    order: 2;
+    width: 100%;
+}
+
+ul.blockList li.blockList section:nth-child(2) {
+    order: 1;
+    width: 100%;
 }
