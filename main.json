@@ -1,4 +1,13 @@
 {
+    "DiscordWebHookAPI": {
+        "name": "DiscordWebHookAPI",
+        "javadoc-url": "https://docs.mlserver.jp/DiscordWebHookAPI/",
+        "github-api-uri": "https://api.github.com/repos/Monster2408/DiscordWebHookAPI/releases",
+        "latest-version": "1.0.0",
+        "versions": [
+            "1.0.0"
+        ]
+    },
     "MCVersion": {
         "name": "MCVersion",
         "javadoc-url": "https://docs.mlserver.jp/MCVersion/",

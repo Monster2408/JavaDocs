@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"xyz.mlserver.discordwebhookapi","h":"","u":""},{"l":"xyz.mlserver.discordwebhookapi.embed","h":"","u":""},{"l":"xyz.mlserver.discordwebhookapi.embed.models","h":"","u":""},{"l":"xyz.mlserver.discordwebhookapi.utils","h":"","u":""},{"l":"すべてのパッケージ","h":"","u":"allpackages-index.html"}]
