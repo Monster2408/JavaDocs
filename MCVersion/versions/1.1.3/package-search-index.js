@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"xyz.mlserver.mcversion","h":"","u":""},{"l":"すべてのパッケージ","h":"","u":"allpackages-index.html"}]
