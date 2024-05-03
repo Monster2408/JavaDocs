@@ -1,7 +1,7 @@
 {
     "DiscordWebHookAPI": {
         "name": "DiscordWebHookAPI",
-        "javadoc-url": "https://docs.mlserver.jp/DiscordWebHookAPI/",
+        "javadoc-url": "https://docs.monster2408.com/DiscordWebHookAPI/",
         "github-api-uri": "https://api.github.com/repos/Monster2408/DiscordWebHookAPI/releases",
         "latest-version": "1.0.0",
         "versions": [
@@ -10,7 +10,7 @@
     },
     "MCVersion": {
         "name": "MCVersion",
-        "javadoc-url": "https://docs.mlserver.jp/MCVersion/",
+        "javadoc-url": "https://docs.monster2408.com/MCVersion/",
         "github-api-uri": "https://api.github.com/repos/Monster2408/MCVersion/releases",
         "latest-version": "1.1.1",
         "versions": [
@@ -20,7 +20,7 @@
     },
     "MinecraftUtil": {
         "name": "MinecraftUtil",
-        "javadoc-url": "https://docs.mlserver.jp/MinecraftUtil/",
+        "javadoc-url": "https://docs.monster2408.com/MinecraftUtil/",
         "github-api-uri": "https://api.github.com/repos/Monster2408/MinecraftUtil/releases",
         "latest-version": "1.0.0",
         "versions": [
@@ -29,7 +29,7 @@
     },
     "JavaUtil": {
         "name": "JavaUtil",
-        "javadoc-url": "https://docs.mlserver.jp/JavaUtil/",
+        "javadoc-url": "https://docs.monster2408.com/JavaUtil/",
         "github-api-uri": "https://api.github.com/repos/Monster2408/JavaUtil/releases",
         "latest-version": "1.0.0",
         "versions": [
@@ -38,7 +38,7 @@
     },
     "AdvancementCreator": {
         "name": "AdvancementCreator",
-        "javadoc-url": "https://docs.mlserver.jp/AdvancementCreator/",
+        "javadoc-url": "https://docs.monster2408.com/AdvancementCreator/",
         "github-api-uri": "https://api.github.com/repos/Monster2408/AdvancementCreator/releases",
         "latest-version": "1.0.0",
         "versions": [
@@ -47,7 +47,7 @@
     },
     "ReflectionHelper": {
         "name": "ReflectionHelper",
-        "javadoc-url": "https://docs.mlserver.jp/ReflectionHelper/",
+        "javadoc-url": "https://docs.monster2408.com/ReflectionHelper/",
         "github-api-uri": "https://api.github.com/repos/Monster2408/ReflectionHelper/releases",
         "latest-version": "1.0.0",
         "versions": [
@@ -56,7 +56,7 @@
     },
     "Spigot-Update-Core": {
         "name": "Spigot-Update-Core",
-        "javadoc-url": "https://docs.mlserver.jp/Spigot-Update-Core/",
+        "javadoc-url": "https://docs.monster2408.com/Spigot-Update-Core/",
         "github-api-uri": "https://api.github.com/repos/Monster2408/Spigot-Update-Core/releases",
         "latest-version": "1.0.0",
         "versions": [

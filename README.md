@@ -1,4 +1,4 @@
 # JavaDocs(JavaDoc)
-- [メインページ](https://docs.mlserver.jp/)
-- [MinecraftUtil](https://docs.mlserver.jp/MinecraftUtil/)
-- [JavaUtil](https://docs.mlserver.jp/JavaUtil/)
+- [メインページ](https://docs.monster2408.com/)
+- [MinecraftUtil](https://docs.monster2408.com/MinecraftUtil/)
+- [JavaUtil](https://docs.monster2408.com/JavaUtil/)
