@@ -62,5 +62,14 @@
         "versions": [
             "1.0.0"
         ]
+    },
+    "UpdateChecker": {
+        "name": "UpdateChecker",
+        "javadoc-url": "https://docs.monster2408.com/UpdateChecker/",
+        "github-api-uri": "https://api.github.com/repos/Monster2408/UpdateChecker/releases",
+        "latest-version": "1.0.0",
+        "versions": [
+            "1.0.0"
+        ]
     }
 }
